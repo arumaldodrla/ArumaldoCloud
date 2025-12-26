@@ -10,7 +10,19 @@
 
 ## Platform Classification
 
-Arumaldo Cloud is primarily a **SaaS (Software as a Service)** platform with **PaaS (Platform as a Service)** elements. End-users consume the service without managing infrastructure, while the platform provides a foundation for customers to build and deploy their WordPress websites with integrated services.
+Arumaldo Cloud is primarily a **SaaS (Software as a Service)** platform with **PaaS (Platform as a Service)** elements. End-users consume the service without managing infrastructure (SaaS), while the platform provides a foundation for customers to build and deploy their WordPress websites with integrated services (PaaS elements).
+
+---
+
+## Core Principles
+
+| Principle | Description |
+| :--- | :--- |
+| **AI-First** | The entire customer lifecycle, from onboarding to support, is powered by AI with minimal human interaction. |
+| **Self-Service** | Customers can sign up, create websites, and manage all services without human assistance. |
+| **Fully Automated** | All service provisioning, billing, and support escalation is automated. |
+| **Security-First** | Multi-layered security is built into every aspect of the platform. |
+| **Simple UX, Complex Backend** | The user experience is intuitive and easy, while the underlying technology is comprehensive and powerful. |
 
 ---
 
@@ -20,10 +32,10 @@ Arumaldo Cloud is primarily a **SaaS (Software as a Service)** platform with **P
 | :--- | :--- |
 | **AI-Powered Website Builder** | Users answer questions about their business, and the AI generates a complete WordPress website. |
 | **Security-First Architecture** | Multi-layered security with Cloudflare WAF, DDoS protection, malware scanning, and automated backups. |
-| **Compliance-as-a-Service** | Automated generation of legal documents (Privacy Policy, Terms of Service) and continuous compliance monitoring for GDPR, CCPA, and more. |
+| **Compliance-as-a-Service** | Automated generation of legal documents and continuous compliance monitoring for GDPR, CCPA, and more. |
 | **Integrated Platform Services** | DNS management, email authentication (SPF/DKIM/DMARC), business email, and email marketing. |
 | **Full WooCommerce Support** | Complete eCommerce capability with support for the entire WooCommerce plugin ecosystem. |
-| **AI-First Customer Lifecycle** | Self-service onboarding, AI-powered support, and automated billing and subscription management. |
+| **Automated Self-Service Lifecycle** | Fully automated onboarding, service provisioning, and upsell management. |
 
 ---
 
@@ -35,10 +47,11 @@ Arumaldo Cloud is primarily a **SaaS (Software as a Service)** platform with **P
 | **Backend** | Supabase (PostgreSQL, Auth, Edge Functions) |
 | **Deployment** | Vercel |
 | **WordPress Hosting** | Pressable |
-| **Security** | Cloudflare |
+| **Security & Performance** | Cloudflare (Agency Partner Program) |
 | **AI** | Google Antigravity, OpenAI API |
 | **Business Operations** | Zoho One (CRM, Billing, Books, Desk, Sign, Mail) |
 | **Payment Processing** | Authorize.net |
+| **SSL Reselling** | Sectigo / GoGetSSL |
 
 ---
 
@@ -71,6 +84,20 @@ This repository contains all the documentation required for AI agents to success
 | [Deployment Guide](./docs/deployment_guide.md) | Step-by-step deployment instructions. |
 | [Environment Variables](./docs/environment_variables.md) | Reference for all required environment variables. |
 | [Zoho Integration Guide](./docs/zoho_integration.md) | Integration with Zoho One services. |
+| [Cloudflare Integration Guide](./docs/cloudflare_integration.md) | Integration with Cloudflare Agency Partner Program. |
+
+### Automation
+
+| Document | Description |
+| :--- | :--- |
+| [Customer Onboarding Automation](./docs/customer_onboarding_automation.md) | Fully automated customer onboarding flow. |
+| [Service Provisioning Automation](./docs/service_provisioning_automation.md) | Automated service provisioning engine. |
+
+### Revenue & Upsells
+
+| Document | Description |
+| :--- | :--- |
+| [Revenue Services](./docs/revenue_services.md) | SSL reselling, upsell services, and bundles. |
 
 ### Compliance and Security
 
@@ -91,9 +118,10 @@ This repository contains all the documentation required for AI agents to success
 
 1.  **Read the PRD:** Start with the [Product Requirements Document](./docs/prd.md) to understand the project's goals and scope.
 2.  **Understand the Architecture:** Review the [System Architecture](./docs/system_architecture.md) to understand how the components interact.
-3.  **Set Up Your Environment:** Follow the [Development Guide](./docs/development_guide.md) to set up your local development environment.
-4.  **Review the SOPs:** The [Standard Operating Procedures](./docs/sop.md) will guide you through the development workflow.
-5.  **Start Developing:** Pick a user story from the [User Stories](./docs/user_stories.md) document and begin development.
+3.  **Review Automation Flows:** Study the [Customer Onboarding Automation](./docs/customer_onboarding_automation.md) and [Service Provisioning Automation](./docs/service_provisioning_automation.md) documents to understand the self-service model.
+4.  **Set Up Your Environment:** Follow the [Development Guide](./docs/development_guide.md) to set up your local development environment.
+5.  **Review the SOPs:** The [Standard Operating Procedures](./docs/sop.md) will guide you through the development workflow.
+6.  **Start Developing:** Pick a user story from the [User Stories](./docs/user_stories.md) document and begin development.
 
 ---
 
@@ -114,6 +142,10 @@ This repository contains all the documentation required for AI agents to success
     ├── testing_qa.md
     ├── environment_variables.md
     ├── zoho_integration.md
+    ├── cloudflare_integration.md
+    ├── customer_onboarding_automation.md
+    ├── service_provisioning_automation.md
+    ├── revenue_services.md
     ├── compliance_security.md
     ├── implementation_roadmap.md
     └── user_stories.md
@@ -140,6 +172,6 @@ This project is proprietary and confidential. All rights reserved.
 
 ---
 
-**Document Version:** 1.0  
+**Document Version:** 2.0  
 **Last Updated:** December 2024  
 **Maintained By:** Manus AI

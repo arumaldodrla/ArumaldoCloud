@@ -42,9 +42,11 @@ Arumaldo Cloud will be the go-to platform for businesses that want a secure, com
 - **Complete eCommerce support:** Full compatibility with WooCommerce and its ecosystem of plugins for payments, bookings, subscriptions, and more.
 - **Plugin security framework:** All plugins are scanned for vulnerabilities, monitored for updates, and tested for compatibility.
 
-### 4.5. AI-First Customer Lifecycle
+### 4.5. Fully Automated Self-Service Lifecycle
 
-- **Self-service onboarding:** Customers can sign up, create, and manage their websites without human assistance.
+- **Automated Onboarding:** A fully automated, wizard-driven process for customer sign-up, website creation, and service selection.
+- **Automated Service Provisioning:** All services, including WordPress sites, SSL certificates, and Cloudflare features, are provisioned automatically upon payment.
+- **Self-Service Upsells:** Customers can browse and purchase additional services and bundles directly from their dashboard, with automated provisioning.
 - **AI-powered support:** An AI support agent will handle all first-line support inquiries, with seamless escalation to a human agent via Zoho Desk when necessary.
 - **Automated billing and subscription management:** Integration with Zoho Billing and Zoho Books for automated invoicing and subscription management.
 
@@ -59,7 +61,16 @@ Arumaldo Cloud will be the go-to platform for businesses that want a secure, com
 - **Business Operations:** Zoho One (CRM, Billing, Books, Desk, Sign, Mail)
 - **Payment Processing:** Authorize.net (via Zoho integration)
 
-## 6. Non-Functional Requirements
+## 6. Upsellable Services
+
+Arumaldo Cloud will offer a range of upsellable services to generate additional revenue and provide enhanced value to customers. These services will be available for purchase through the self-service dashboard.
+
+- **Premium SSL Certificates:** A range of SSL certificates, including Wildcard, OV, and EV, will be available for purchase.
+- **Advanced Security Services:** Including advanced WAF rules, penetration testing, and premium vulnerability scanning.
+- **Performance Enhancements:** Including premium CDN, advanced image optimization, and Core Web Vitals monitoring.
+- **Compliance Add-ons:** Including advanced cookie consent management and accessibility compliance.
+
+## 7. Non-Functional Requirements
 
 - **Security:** The platform must be compliant with the latest data security and privacy regulations, including ISO 27001, SOC 2, GDPR, and CCPA.
 - **Scalability:** The architecture must be able to scale to support thousands of customer websites.
